@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { createElement } from 'react';
 import ReactDOM from 'react-dom';
+import SimpleComponent from './simpleComponent';
+import FunctionalComponent from './functionComponent';
+import ClassComponent from './classComponent';
 import './index.css';
-import Examples from './Examples';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Examples />
+    {/* <SimpleComponent /> */}
+    {/* <FunctionalComponent /> */}
+    <ClassComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );
