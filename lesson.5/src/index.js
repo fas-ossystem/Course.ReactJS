@@ -25,8 +25,12 @@ import './index.css';
 
 /** Logical && operator */
 
-/** SWITCH CASE operator */
 
+/** SWITCH CASE operator */
+const message = {
+    text: "Предупреждение",
+    state: "warning"
+};
 
 ReactDOM.render(
   <React.StrictMode>
@@ -37,10 +41,10 @@ ReactDOM.render(
     {/* <Examples listItems={listItems} /> */}
 
     {/** Logical && operator */}
-    <Examples listItems={listItems} />
+    {/*<Examples listItems={listItems} />*/}
 
     {/** SWITCH CASE operator */}
-    <Examples listItems={listItems} />
+    <Examples text={message.text} state={message.state} />
   </React.StrictMode>,
   document.getElementById('root')
 );
