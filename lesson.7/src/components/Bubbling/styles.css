@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.list-conteiner {
+  width: calc(100% - 32px);
+  margin: 0 16px;
+  padding: 0;
+  user-select: none;
+}
+.list-item-conteiner {
+  list-style: none;
+  border-top: 1px solid black;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-header .title {
+  flex-grow: 12;
+}
+.card-header button {
+  height: 48px;
+  flex-shrink: 0;
+  margin-left: 16px;
+}
+.card-header .clicks-counter {
+  font-size: 0.75em;
+  opacity: 0.75;
+}
